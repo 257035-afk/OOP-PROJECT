@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="MiniComputer Phase 1 UML" id="T_397x5ZkcO5SHE3pZVc">
+    <mxGraphModel dx="1520" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-5" parent="1" style="swimlane;html=1;startSize=30;horizontal=1;rounded=0;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;fontSize=16;align=center;" value="" vertex="1">
+          <mxGeometry height="270" width="330" x="613" y="618" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-6" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;direction=ltr;" value="Computer" vertex="1">
+          <mxGeometry height="25" width="330" x="613" y="621" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-7" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=13;spacingLeft=8;direction=ltr;" value="&lt;div style=&#39;text-align:left;direction:ltr&#39;&gt;- computerName : String&lt;br&gt;- cpu : CPU&lt;br&gt;- ram : RAM&lt;br&gt;- storage : Storage&lt;br&gt;- powerOn : boolean&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="326" x="615" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-8" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=13;spacingLeft=8;direction=ltr;" value="&lt;div style=&#39;text-align:left;direction:ltr&#39;&gt;+ Computer(name, cpu, ram, storage)&lt;br&gt;+ powerOn() : void&lt;br&gt;+ shutDown() : void&lt;br&gt;+ displayPowerStatus() : void&lt;br&gt;+ displaySpecifications() : void&lt;br&gt;+ getRAM() : RAM&lt;br&gt;+ getCPU() : CPU&lt;br&gt;+ getStorage() : Storage&lt;/div&gt;" vertex="1">
+          <mxGeometry height="152" width="326" x="615" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-9" parent="1" style="swimlane;html=1;startSize=30;horizontal=1;rounded=0;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;fontSize=16;align=center;" value="" vertex="1">
+          <mxGeometry height="260" width="330" x="263" y="938" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-10" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;direction=ltr;" value="CPU" vertex="1">
+          <mxGeometry height="25" width="330" x="263" y="941" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-11" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=13;spacingLeft=8;direction=ltr;" value="&lt;div style=&#39;text-align:left;direction:ltr&#39;&gt;- model : String&lt;br&gt;- numberOfCores : int&lt;br&gt;- clockSpeed : double&lt;br&gt;- accumulator : int&lt;br&gt;- programCounter : int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="326" x="265" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-12" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=13;spacingLeft=8;direction=ltr;" value="&lt;div style=&#39;text-align:left;direction:ltr&#39;&gt;+ CPU(model, cores, speed)&lt;br&gt;+ displaySpecifications() : void&lt;br&gt;+ resetRegisters() : void&lt;br&gt;+ getModel() : String&lt;br&gt;+ getNumberOfCores() : int&lt;br&gt;+ getClockSpeed() : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="114" width="326" x="265" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-13" parent="1" style="swimlane;html=1;startSize=30;horizontal=1;rounded=0;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;fontSize=16;align=center;" value="" vertex="1">
+          <mxGeometry height="210" width="330" x="613" y="958" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-14" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;direction=ltr;" value="RAM" vertex="1">
+          <mxGeometry height="25" width="330" x="613" y="961" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-15" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=13;spacingLeft=8;direction=ltr;" value="&lt;div style=&#39;text-align:left;direction:ltr&#39;&gt;- totalCapacity : int&lt;br&gt;- usedMemory : int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="38" width="326" x="615" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-16" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=13;spacingLeft=8;direction=ltr;" value="&lt;div style=&#39;text-align:left;direction:ltr&#39;&gt;+ RAM(totalCapacity)&lt;br&gt;+ displayMemory() : void&lt;br&gt;+ getAvailableMemory() : int&lt;br&gt;+ allocateMemory(amount) : boolean&lt;br&gt;+ releaseMemory(amount) : boolean&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="326" x="615" y="1033" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-17" parent="1" style="swimlane;html=1;startSize=30;horizontal=1;rounded=0;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;fontSize=16;align=center;" value="" vertex="1">
+          <mxGeometry height="240" width="360" x="963" y="938" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-18" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;direction=ltr;" value="Storage" vertex="1">
+          <mxGeometry height="25" width="360" x="963" y="941" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-19" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=13;spacingLeft=8;direction=ltr;" value="&lt;div style=&#39;text-align:left;direction:ltr&#39;&gt;- deviceName : String&lt;br&gt;- totalCapacity : int&lt;br&gt;- usedCapacity : int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="57" width="356" x="965" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-20" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=13;spacingLeft=8;direction=ltr;" value="&lt;div style=&#39;text-align:left;direction:ltr&#39;&gt;+ Storage(name, capacity)&lt;br&gt;+ displaySpecifications() : void&lt;br&gt;+ getAvailableSpace() : int&lt;br&gt;+ storeData(amount) : boolean&lt;br&gt;+ removeData(amount) : boolean&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="356" x="965" y="1032" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-25" edge="1" parent="1" source="wA0RpYqq_XZ-VsQYVnCk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=diamond;startFill=1;endArrow=none;strokeWidth=2;" target="wA0RpYqq_XZ-VsQYVnCk-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-26" edge="1" parent="1" source="wA0RpYqq_XZ-VsQYVnCk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=diamond;startFill=1;endArrow=none;strokeWidth=2;" target="wA0RpYqq_XZ-VsQYVnCk-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wA0RpYqq_XZ-VsQYVnCk-27" edge="1" parent="1" source="wA0RpYqq_XZ-VsQYVnCk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=diamond;startFill=1;endArrow=none;strokeWidth=2;" target="wA0RpYqq_XZ-VsQYVnCk-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
